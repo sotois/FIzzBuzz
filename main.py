@@ -12,7 +12,9 @@ def check_fizzbuzz(number):
     return str(number)
     
 def play_fizzbuzz():
-  for i in range(1, 101):
+  i = 1
+  while i <= 100:
     print(check_fizzbuzz(i))
+    i += 1
     
 play_fizzbuzz()
